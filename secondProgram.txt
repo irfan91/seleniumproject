@@ -1,0 +1,9 @@
+import org.openqa.selenium.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
+public class Gmail{
+public static void main(String args[]){
+WebDriver wd=new FirefoxDriver();
+wd.get("http://gmail.com");
+}
+}
+
